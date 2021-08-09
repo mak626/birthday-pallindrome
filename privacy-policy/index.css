@@ -2,12 +2,21 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+  font-family: Poppins;
+  --primary-color: #956ec4;
+  --secondary-color: #9f16c9;
+  --nav-color: #212529;
+  --font-color: white;
+  --off-white-color: rgb(245, 245, 245);
+}
+
 body {
   padding: 30px;
 }
 
 h2 {
-  color: #ff9317;
+  color: var(--secondary-color);
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0;
@@ -20,7 +29,7 @@ p {
 }
 
 .heading {
-  color: #ff9317;
+  color: var(--secondary-color);
   font-weight: 600;
   font-size: 24px;
   letter-spacing: 0;
