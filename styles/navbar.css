@@ -1,0 +1,26 @@
+header {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  padding: 5px 0px;
+  background-color: var(--nav-color);
+  color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  min-height: 80px;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar-title {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0px 20px;
+}

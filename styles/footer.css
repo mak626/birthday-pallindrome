@@ -1,0 +1,82 @@
+@import "./navbar.css";
+
+footer {
+  background-color: var(--nav-color);
+}
+
+.footer-link {
+  position: relative;
+}
+
+.footer-link img {
+  width: 2rem;
+  padding: 5px;
+}
+
+.footer-link a {
+  text-decoration: none;
+}
+
+.footer-link ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-link li {
+  padding: 5px;
+}
+
+.media__link {
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.media__link a {
+  display: inline-block;
+}
+
+.github {
+  background-color: white;
+  color: black;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+  color: white;
+}
+
+.xda {
+  background-color: #aa7605;
+  color: white;
+}
+
+.footer__copyright {
+  margin: 0px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer__copyright a {
+  color: white;
+}
+
+@media (max-width: 1115px) {
+  .footer-link ul {
+    padding: 0px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-link li {
+    padding: 10px;
+  }
+}

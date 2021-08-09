@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://www.svgrepo.com/show/217721/calendar-date.svg"
+      rel="icon"
+    />
+    <link href="./index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Birthday Pallindrome</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-title">Is Your Birthday Pallindrome?</div>
+      </nav>
+    </header>
+    <!-- /NAV BAR -->
+
+    <div class="main">
+      <img
+        src="https://www.svgrepo.com/show/222746/calendar-date.svg"
+        alt="cake"
+      />
+      <h3>Enter your birthdate</h3>
+      <input type="date" name="birth_date" id="birth_date" />
+      <button type="submit" id="submit">CHECK</button>
+      <div class="invalid-input clock" id="clock">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/37/Clock.gif"
+          alt="clock gif"
+          srcset=""
+        />
+        <h4>Checking dates in dd-mm-yyyy, mm-dd-yyyy, mm-dd-yy formats</h4>
+      </div>
+      <div class="invalid-input" id="invalid-input">
+        <h4>Invalid Input</h4>
+      </div>
+      <div class="invalid-input answer" id="r-answer">
+        <img src="./assets/tick.svg" alt="right" />
+        <h4>
+          Given date is pallindrome in
+          <span id="answer__text" class="highlight"></span> !
+        </h4>
+      </div>
+      <div class="invalid-input answer" id="w-answer">
+        <img src="./assets/cross.svg" alt="wrong" />
+        <h4>
+          Given date is not pallindrome. Next pallindrome is at
+          <span id="answer__date" class="highlight"></span> in
+          <span id="answer__format" class="highlight"></span> format i.e in
+          <span id="answer__days" class="highlight"></span> days from birth date
+        </h4>
+      </div>
+    </div>
+    <!-- NAV BAR -->
+    <footer>
+      <div class="navbar footer-link">
+        <ul>
+          <li>
+            <a href="https://github.com/mak626" target="_blank" class="github">
+              <div class="media__link github">
+                <img
+                  src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                />
+                Github
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/maswinkishore/"
+              target="_blank"
+              class="linkedin"
+            >
+              <div class="media__link linkedin">
+                <img src="./assets/linkedIN.svg" />
+                LinkedIn
+              </div></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://forum.xda-developers.com/m/mak626.5875057/"
+              target="_blank"
+              class="xda"
+            >
+              <div class="media__link xda">
+                <img src="./assets/xda.svg" />XDA Developers
+              </div></a
+            >
+          </li>
+        </ul>
+      </div>
+      <h5 class="footer__copyright">
+        <a href="./privacy-policy/index.html">Privacy Policy</a>
+      </h5>
+      <h5 class="footer__copyright">© 2021 | M Aswin Kishore</h5>
+    </footer>
+    <!-- /NAV BAR -->
+
+    <script src="index.js"></script>
+  </body>
+</html>

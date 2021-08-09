@@ -1,0 +1,29 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 30px;
+}
+
+h2 {
+  color: #ff9317;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+p {
+  padding-left: 0.2%;
+  color: #455a64;
+}
+
+.heading {
+  color: #ff9317;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 32px;
+  padding-top: 24px;
+}

@@ -1,0 +1,121 @@
+@import "./styles/footer.css";
+
+:root {
+  font-family: Poppins;
+  --primary-color: #956ec4;
+  --secondary-color: #9f16c9;
+  --nav-color: #212529;
+  --font-color: white;
+  --off-white-color: rgb(245, 245, 245);
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.main img {
+  width: 20%;
+  max-width: 10rem;
+  margin: auto;
+}
+
+.main h3 {
+  text-align: center;
+  margin: 30px 0px 10px;
+}
+
+.main input {
+  display: block;
+  background-color: var(--nav-color);
+  border-radius: 4px;
+  height: fit-content;
+  width: auto;
+
+  font-size: 1.7rem;
+  margin: 1rem auto;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.main input[type="text"] {
+  max-width: 14.7rem;
+  margin-top: 0px;
+}
+
+.main input[type="date"] {
+  margin-top: 0px;
+}
+
+.main input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main button {
+  width: 20%;
+  margin: auto;
+  background-color: var(--nav-color);
+  border-radius: 4px;
+  height: fit-content;
+  width: auto;
+  font-size: 1.8rem;
+  margin: 1rem auto;
+  font-weight: bold;
+  padding: 10px;
+  color: var(--primary-color);
+}
+
+.invalid-input {
+  display: none;
+  background-color: rgb(158, 29, 29);
+  padding: 5px 20px;
+  margin: auto;
+  border-radius: 4px;
+  max-width: 500px;
+  margin: 18px 30px;
+}
+
+.invalid-input h4 {
+  color: white;
+  text-align: center;
+}
+
+.answer {
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.answer img {
+  width: 2rem;
+  margin: 0px;
+}
+
+.answer h4 {
+  margin-left: 1rem;
+}
+
+.highlight {
+  color: yellow;
+}
+
+.clock {
+  background-color: transparent;
+  flex-direction: column;
+}
+
+.clock h4 {
+  color: var(--secondary-color);
+}
