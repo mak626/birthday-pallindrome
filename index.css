@@ -77,6 +77,10 @@ body {
   color: var(--primary-color);
 }
 
+.main button:hover {
+  color: var(--secondary-color);
+}
+
 .invalid-input {
   display: none;
   background-color: rgb(158, 29, 29);
